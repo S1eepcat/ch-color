@@ -1,0 +1,403 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>中国传统色 · 五色成文</title>
+<meta name="description" content="以青、赤、黄、白、黑五正色为纲的滚动叙事长页：十五种中国传统色，一色一诗一境，纯静态实现。">
+<meta name="theme-color" content="#17161A">
+<meta property="og:title" content="中国传统色 · 五色成文">
+<meta property="og:description" content="青赤黄白黑，五色成文。十五种中国传统色，一色一诗一境。">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='6' fill='%23B23A2E'/%3E%3Cpath d='M20 16h24M20 32h24M20 48h24' stroke='%23F6E9DC' stroke-width='5' stroke-linecap='round'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-tone="dark">
+
+<!-- 顶部阅读进度 -->
+<div class="progress" aria-hidden="true"><span class="progress__bar"></span></div>
+
+<!-- 当前色提示 -->
+<div class="hud" aria-hidden="true">
+  <span class="hud__dot"></span>
+  <span class="hud__name">序</span>
+  <span class="hud__hex"></span>
+</div>
+
+<!-- 章节导航 -->
+<nav class="rail" aria-label="五色章节">
+  <a href="#qing" data-nav="qing"><span>青</span><i></i></a>
+  <a href="#chi" data-nav="chi"><span>赤</span><i></i></a>
+  <a href="#huang" data-nav="huang"><span>黄</span><i></i></a>
+  <a href="#bai" data-nav="bai"><span>白</span><i></i></a>
+  <a href="#hei" data-nav="hei"><span>黑</span><i></i></a>
+</nav>
+
+<header class="hero" id="top" data-tone="dark" style="--bg:#17161A;--fg:#F1EAD8">
+  <p class="hero__kicker">五色 · 中国传统色</p>
+
+  <div class="hero__art">
+    <h1 class="hero__title">中国传统色</h1>
+    <div class="seal" aria-hidden="true">五色</div>
+  </div>
+
+  <p class="hero__quote">色者，天地之华<br>五行之精</p>
+
+  <a class="scroll-cue" href="#intro" aria-label="向下滚动到序章">
+    <i></i><span>向下滚动</span>
+  </a>
+</header>
+
+<main id="main">
+
+  <!-- ========== 序 ========== -->
+  <section class="intro" id="intro" data-tone="light" data-name="序" style="--bg:#F2EBDD;--fg:#201D1A">
+    <div class="intro__inner reveal-scope">
+      <p class="eyebrow reveal" style="--i:1">序</p>
+
+      <p class="intro__lead reveal" style="--i:2">
+        《周礼 · 考工记》曰：「画缋之事，杂五色。东方谓之青，南方谓之赤，西方谓之白，北方谓之黑，天谓之玄，地谓之黄。」
+      </p>
+
+      <p class="intro__text reveal" style="--i:3">
+        五色不只是五种颜色。它们是五行与五方，是四时更替，也是古人观察天地之后，留给后世的一套秩序与修辞。
+      </p>
+
+      <a class="intro__next reveal" style="--i:4" href="#qing">自东方的青开始 <i aria-hidden="true">↓</i></a>
+
+      <nav class="wheel reveal" style="--i:5" aria-label="五色目录">
+        <a class="wheel__item" href="#qing" style="--c:#5E8778"><span class="wheel__char">青</span><span class="wheel__meta">东方 · 木 · 春</span></a>
+        <a class="wheel__item" href="#chi" style="--c:#B33A2C"><span class="wheel__char">赤</span><span class="wheel__meta">南方 · 火 · 夏</span></a>
+        <a class="wheel__item" href="#huang" style="--c:#B98B2E"><span class="wheel__char">黄</span><span class="wheel__meta">中央 · 土 · 长夏</span></a>
+        <a class="wheel__item" href="#bai" style="--c:#9DAEAC"><span class="wheel__char">白</span><span class="wheel__meta">西方 · 金 · 秋</span></a>
+        <a class="wheel__item" href="#hei" style="--c:#33302F"><span class="wheel__char">黑</span><span class="wheel__meta">北方 · 水 · 冬</span></a>
+      </nav>
+    </div>
+  </section>
+
+  <!-- ========== 一 · 青 ========== -->
+  <section class="chapter" id="qing">
+    <div class="chapter__cover reveal-scope" data-tone="dark" data-name="青" data-dot="#5E8778" style="--bg:#1E3A35;--fg:#E6EFE9">
+      <span class="chapter__num" aria-hidden="true">壹</span>
+      <h2 class="chapter__title reveal" style="--i:1">青</h2>
+      <div class="chapter__foot">
+        <div>
+          <p class="chapter__meta reveal" style="--i:3">东方 · 木 · 春 · 生</p>
+          <p class="chapter__desc reveal" style="--i:4">东方谓之青。草木初生、天光初透，皆是这一色。它不张扬，却含着春气与生机。</p>
+        </div>
+        <div class="stamp" aria-hidden="true"><span>青</span></div>
+      </div>
+    </div>
+
+    <article class="color color--qing" data-tone="light" data-name="天青" data-hex="#7BA7A0" data-dot="#7BA7A0" style="--bg:#7BA7A0;--fg:#17302C">
+      <span class="color__frame" aria-hidden="true"></span>
+      <div class="color__inner reveal-scope">
+        <p class="color__index reveal" style="--i:0">01 / 15</p>
+        <p class="color__pinyin reveal" style="--i:1">TIAN QING</p>
+        <h3 class="color__name reveal" style="--i:2">天青</h3>
+        <p class="color__hex reveal" style="--i:3"><button class="copy-btn" type="button" data-copy="#7BA7A0" aria-label="复制色值 #7BA7A0">#7BA7A0<span class="copy-btn__label">复制</span></button></p>
+        <blockquote class="color__poem reveal" style="--i:4">雨过天青云破处，<br>这般颜色做将来。</blockquote>
+        <p class="color__source reveal" style="--i:5">相传 · 五代柴窑</p>
+        <p class="color__note reveal" style="--i:6">瓷釉之色。雨霁云开，天光透过薄釉的那一层淡青。</p>
+      </div>
+    </article>
+
+    <article class="color color--qing" data-tone="light" data-name="竹青" data-hex="#789262" data-dot="#789262" style="--bg:#789262;--fg:#1D2915">
+      <span class="color__frame" aria-hidden="true"></span>
+      <div class="color__inner reveal-scope">
+        <p class="color__index reveal" style="--i:0">02 / 15</p>
+        <p class="color__pinyin reveal" style="--i:1">ZHU QING</p>
+        <h3 class="color__name reveal" style="--i:2">竹青</h3>
+        <p class="color__hex reveal" style="--i:3"><button class="copy-btn" type="button" data-copy="#789262" aria-label="复制色值 #789262">#789262<span class="copy-btn__label">复制</span></button></p>
+        <blockquote class="color__poem reveal" style="--i:4">竹色溪下绿，<br>荷花镜里香。</blockquote>
+        <p class="color__source reveal" style="--i:5">唐 · 李白《别储邕之剡中》</p>
+        <p class="color__note reveal" style="--i:6">竹皮之绿，沉而不艳。古人以竹喻君子，取其虚心有节。</p>
+      </div>
+    </article>
+
+    <article class="color color--qing" data-tone="dark" data-name="黛蓝" data-hex="#45566B" data-dot="#45566B" style="--bg:#45566B;--fg:#EDE9DF">
+      <span class="color__frame" aria-hidden="true"></span>
+      <div class="color__inner reveal-scope">
+        <p class="color__index reveal" style="--i:0">03 / 15</p>
+        <p class="color__pinyin reveal" style="--i:1">DAI LAN</p>
+        <h3 class="color__name reveal" style="--i:2">黛蓝</h3>
+        <p class="color__hex reveal" style="--i:3"><button class="copy-btn" type="button" data-copy="#45566B" aria-label="复制色值 #45566B">#45566B<span class="copy-btn__label">复制</span></button></p>
+        <blockquote class="color__poem reveal" style="--i:4">妆罢低声问夫婿，<br>画眉深浅入时无。</blockquote>
+        <p class="color__source reveal" style="--i:5">唐 · 朱庆馀《近试上张水部》</p>
+        <p class="color__note reveal" style="--i:6">黛是画眉的墨。偏蓝的冷黑，落在纸上像远山的轮廓。</p>
+      </div>
+    </article>
+  </section>
+
+  <!-- ========== 二 · 赤 ========== -->
+  <section class="chapter" id="chi">
+    <div class="chapter__cover reveal-scope" data-tone="dark" data-name="赤" data-dot="#BF3B2E" style="--bg:#4B1B17;--fg:#F4E4DA">
+      <span class="chapter__num" aria-hidden="true">贰</span>
+      <h2 class="chapter__title reveal" style="--i:1">赤</h2>
+      <div class="chapter__foot">
+        <div>
+          <p class="chapter__meta reveal" style="--i:3">南方 · 火 · 夏 · 长</p>
+          <p class="chapter__desc reveal" style="--i:4">南方谓之赤。火之色，也是血与朱砂之色。热烈、醒神，古人以赤为尊，以赤为信。</p>
+        </div>
+        <div class="stamp" aria-hidden="true"><span>赤</span></div>
+      </div>
+    </div>
+
+    <article class="color color--chi" data-tone="dark" data-name="朱砂" data-hex="#BF3B2E" data-dot="#BF3B2E" style="--bg:#BF3B2E;--fg:#FFF6EF">
+      <span class="color__frame" aria-hidden="true"></span>
+      <div class="color__inner reveal-scope">
+        <p class="color__index reveal" style="--i:0">04 / 15</p>
+        <p class="color__pinyin reveal" style="--i:1">ZHU SHA</p>
+        <h3 class="color__name reveal" style="--i:2">朱砂</h3>
+        <p class="color__hex reveal" style="--i:3"><button class="copy-btn" type="button" data-copy="#BF3B2E" aria-label="复制色值 #BF3B2E">#BF3B2E<span class="copy-btn__label">复制</span></button></p>
+        <blockquote class="color__poem reveal" style="--i:4">日出江花红胜火，<br>春来江水绿如蓝。</blockquote>
+        <p class="color__source reveal" style="--i:5">唐 · 白居易《忆江南》</p>
+        <p class="color__note reveal" style="--i:6">朱砂是矿，也是印泥。庙堂与书画里最正的一笔红。</p>
+      </div>
+    </article>
+
+    <article class="color color--chi" data-tone="dark" data-name="胭脂" data-hex="#9D2933" data-dot="#9D2933" style="--bg:#9D2933;--fg:#FBEDEA">
+      <span class="color__frame" aria-hidden="true"></span>
+      <div class="color__inner reveal-scope">
+        <p class="color__index reveal" style="--i:0">05 / 15</p>
+        <p class="color__pinyin reveal" style="--i:1">YAN ZHI</p>
+        <h3 class="color__name reveal" style="--i:2">胭脂</h3>
+        <p class="color__hex reveal" style="--i:3"><button class="copy-btn" type="button" data-copy="#9D2933" aria-label="复制色值 #9D2933">#9D2933<span class="copy-btn__label">复制</span></button></p>
+        <blockquote class="color__poem reveal" style="--i:4">海棠不惜胭脂色，<br>独立蒙蒙细雨中。</blockquote>
+        <p class="color__source reveal" style="--i:5">宋 · 陈与义《春寒》</p>
+        <p class="color__note reveal" style="--i:6">以红蓝花汁凝作脂，点在颊上。柔中带艳，是闺阁的颜色。</p>
+      </div>
+    </article>
+
+    <article class="color color--chi" data-tone="light" data-name="妃色" data-hex="#E05B45" data-dot="#E05B45" style="--bg:#E05B45;--fg:#2B0D08">
+      <span class="color__frame" aria-hidden="true"></span>
+      <div class="color__inner reveal-scope">
+        <p class="color__index reveal" style="--i:0">06 / 15</p>
+        <p class="color__pinyin reveal" style="--i:1">FEI SE</p>
+        <h3 class="color__name reveal" style="--i:2">妃色</h3>
+        <p class="color__hex reveal" style="--i:3"><button class="copy-btn" type="button" data-copy="#E05B45" aria-label="复制色值 #E05B45">#E05B45<span class="copy-btn__label">复制</span></button></p>
+        <blockquote class="color__poem reveal" style="--i:4">回眸一笑百媚生，<br>六宫粉黛无颜色。</blockquote>
+        <p class="color__source reveal" style="--i:5">唐 · 白居易《长恨歌》</p>
+        <p class="color__note reveal" style="--i:6">妃嫔的服色，浅红如霞。比朱砂轻，比胭脂嫩。</p>
+      </div>
+    </article>
+  </section>
+
+  <!-- ========== 三 · 黄 ========== -->
+  <section class="chapter" id="huang">
+    <div class="chapter__cover reveal-scope" data-tone="dark" data-name="黄" data-dot="#C89B3C" style="--bg:#4E3A0C;--fg:#F6E9C8">
+      <span class="chapter__num" aria-hidden="true">叁</span>
+      <h2 class="chapter__title reveal" style="--i:1">黄</h2>
+      <div class="chapter__foot">
+        <div>
+          <p class="chapter__meta reveal" style="--i:3">中央 · 土 · 长夏 · 化</p>
+          <p class="chapter__desc reveal" style="--i:4">地谓之黄。土与谷的颜色，是丰收，是权力，也是漫长岁月里最暖的一层底色。</p>
+        </div>
+        <div class="stamp" aria-hidden="true"><span>黄</span></div>
+      </div>
+    </div>
+
+    <article class="color color--huang" data-shift data-tone="light" data-name="藤黄" data-hex="#E9A93A" data-dot="#E9A93A" style="--bg:#E9A93A;--fg:#2E2007">
+      <span class="color__frame" aria-hidden="true"></span>
+      <div class="color__inner reveal-scope">
+        <p class="color__index reveal" style="--i:0">07 / 15</p>
+        <p class="color__pinyin reveal" style="--i:1">TENG HUANG</p>
+        <h3 class="color__name reveal" style="--i:2">藤黄</h3>
+        <p class="color__hex reveal" style="--i:3"><button class="copy-btn" type="button" data-copy="#E9A93A" aria-label="复制色值 #E9A93A">#E9A93A<span class="copy-btn__label">复制</span></button></p>
+        <blockquote class="color__poem reveal" style="--i:4">黄鹤一去不复返，<br>白云千载空悠悠。</blockquote>
+        <p class="color__source reveal" style="--i:5">唐 · 崔颢《黄鹤楼》</p>
+        <p class="color__note reveal" style="--i:6">藤树之脂，画工点染的明黄。旧时宫墙，多用此色。</p>
+      </div>
+    </article>
+
+    <article class="color color--huang" data-shift data-tone="light" data-name="秋香" data-hex="#C0A052" data-dot="#C0A052" style="--bg:#C0A052;--fg:#241B06">
+      <span class="color__frame" aria-hidden="true"></span>
+      <div class="color__inner reveal-scope">
+        <p class="color__index reveal" style="--i:0">08 / 15</p>
+        <p class="color__pinyin reveal" style="--i:1">QIU XIANG</p>
+        <h3 class="color__name reveal" style="--i:2">秋香</h3>
+        <p class="color__hex reveal" style="--i:3"><button class="copy-btn" type="button" data-copy="#C0A052" aria-label="复制色值 #C0A052">#C0A052<span class="copy-btn__label">复制</span></button></p>
+        <blockquote class="color__poem reveal" style="--i:4">碧云天，黄叶地，<br>秋色连波，波上寒烟翠。</blockquote>
+        <p class="color__source reveal" style="--i:5">宋 · 范仲淹《苏幕遮》</p>
+        <p class="color__note reveal" style="--i:6">秋叶将落未落的暖金。旧时衣裙与幔帐上，常见此色。</p>
+      </div>
+    </article>
+
+    <article class="color color--huang" data-shift data-tone="light" data-name="杏黄" data-hex="#F0AE4A" data-dot="#F0AE4A" style="--bg:#F0AE4A;--fg:#33210A">
+      <span class="color__frame" aria-hidden="true"></span>
+      <div class="color__inner reveal-scope">
+        <p class="color__index reveal" style="--i:0">09 / 15</p>
+        <p class="color__pinyin reveal" style="--i:1">XING HUANG</p>
+        <h3 class="color__name reveal" style="--i:2">杏黄</h3>
+        <p class="color__hex reveal" style="--i:3"><button class="copy-btn" type="button" data-copy="#F0AE4A" aria-label="复制色值 #F0AE4A">#F0AE4A<span class="copy-btn__label">复制</span></button></p>
+        <blockquote class="color__poem reveal" style="--i:4">梅子金黄杏子肥，<br>麦花雪白菜花稀。</blockquote>
+        <p class="color__source reveal" style="--i:5">宋 · 范成大《四时田园杂兴》</p>
+        <p class="color__note reveal" style="--i:6">熟杏的皮色，甜而明快。夏日午后最好的一口凉。</p>
+      </div>
+    </article>
+  </section>
+
+  <!-- ========== 四 · 白 ========== -->
+  <section class="chapter" id="bai">
+    <div class="chapter__cover reveal-scope" data-tone="light" data-name="白" data-dot="#A9B7B5" style="--bg:#E7ECEA;--fg:#26292A">
+      <span class="chapter__num" aria-hidden="true">肆</span>
+      <h2 class="chapter__title reveal" style="--i:1">白</h2>
+      <div class="chapter__foot">
+        <div>
+          <p class="chapter__meta reveal" style="--i:3">西方 · 金 · 秋 · 收</p>
+          <p class="chapter__desc reveal" style="--i:4">西方谓之白。素绢、霜雪与月色。白不是空，是把万物让出来之后的清明。</p>
+        </div>
+        <div class="stamp" aria-hidden="true"><span>白</span></div>
+      </div>
+    </div>
+
+    <article class="color color--bai" data-shift data-tone="light" data-name="月白" data-hex="#DCE9EA" data-dot="#DCE9EA" style="--bg:#DCE9EA;--fg:#1E2A2C">
+      <span class="color__frame" aria-hidden="true"></span>
+      <div class="rings" aria-hidden="true"><span></span><span></span><span></span></div>
+      <div class="color__inner reveal-scope">
+        <p class="color__index reveal" style="--i:0">10 / 15</p>
+        <p class="color__pinyin reveal" style="--i:1">YUE BAI</p>
+        <h3 class="color__name reveal" style="--i:2">月白</h3>
+        <p class="color__hex reveal" style="--i:3"><button class="copy-btn" type="button" data-copy="#DCE9EA" aria-label="复制色值 #DCE9EA">#DCE9EA<span class="copy-btn__label">复制</span></button></p>
+        <blockquote class="color__poem reveal" style="--i:4">月白风清，<br>如此良夜何。</blockquote>
+        <p class="color__source reveal" style="--i:5">宋 · 苏轼《后赤壁赋》</p>
+        <p class="color__note reveal" style="--i:6">月色映在水面，白中透出一点青。清冷，却不孤寂。</p>
+      </div>
+    </article>
+
+    <article class="color color--bai" data-shift data-tone="light" data-name="霜色" data-hex="#E9EFF0" data-dot="#E9EFF0" style="--bg:#E9EFF0;--fg:#202729">
+      <span class="color__frame" aria-hidden="true"></span>
+      <div class="rings" aria-hidden="true"><span></span><span></span><span></span></div>
+      <div class="color__inner reveal-scope">
+        <p class="color__index reveal" style="--i:0">11 / 15</p>
+        <p class="color__pinyin reveal" style="--i:1">SHUANG SE</p>
+        <h3 class="color__name reveal" style="--i:2">霜色</h3>
+        <p class="color__hex reveal" style="--i:3"><button class="copy-btn" type="button" data-copy="#E9EFF0" aria-label="复制色值 #E9EFF0">#E9EFF0<span class="copy-btn__label">复制</span></button></p>
+        <blockquote class="color__poem reveal" style="--i:4">蒹葭苍苍，<br>白露为霜。</blockquote>
+        <p class="color__source reveal" style="--i:5">《诗经 · 秦风 · 蒹葭》</p>
+        <p class="color__note reveal" style="--i:6">晨霜凝在草叶上，薄薄一层。天亮即散。</p>
+      </div>
+    </article>
+
+    <article class="color color--bai" data-shift data-tone="light" data-name="缟素" data-hex="#F3EEE2" data-dot="#F3EEE2" style="--bg:#F3EEE2;--fg:#2A251C">
+      <span class="color__frame" aria-hidden="true"></span>
+      <div class="rings" aria-hidden="true"><span></span><span></span><span></span></div>
+      <div class="color__inner reveal-scope">
+        <p class="color__index reveal" style="--i:0">12 / 15</p>
+        <p class="color__pinyin reveal" style="--i:1">GAO SU</p>
+        <h3 class="color__name reveal" style="--i:2">缟素</h3>
+        <p class="color__hex reveal" style="--i:3"><button class="copy-btn" type="button" data-copy="#F3EEE2" aria-label="复制色值 #F3EEE2">#F3EEE2<span class="copy-btn__label">复制</span></button></p>
+        <blockquote class="color__poem reveal" style="--i:4">素衣莫起风尘叹，<br>犹及清明可到家。</blockquote>
+        <p class="color__source reveal" style="--i:5">宋 · 陆游《临安春雨初霁》</p>
+        <p class="color__note reveal" style="--i:6">未染色的素绢，无纹无饰。古时为丧服，也为留白。</p>
+      </div>
+    </article>
+  </section>
+
+  <!-- ========== 五 · 黑 ========== -->
+  <section class="chapter" id="hei">
+    <div class="chapter__cover reveal-scope" data-tone="dark" data-name="黑" data-dot="#3D4A4F" style="--bg:#19181C;--fg:#EDE7DA">
+      <span class="chapter__num" aria-hidden="true">伍</span>
+      <h2 class="chapter__title reveal" style="--i:1">黑</h2>
+      <div class="chapter__foot">
+        <div>
+          <p class="chapter__meta reveal" style="--i:3">北方 · 水 · 冬 · 藏</p>
+          <p class="chapter__desc reveal" style="--i:4">北方谓之黑，天谓之玄。墨、鸦羽与夜。黑到极处，反而藏得住所有颜色。</p>
+        </div>
+        <div class="stamp" aria-hidden="true"><span>黑</span></div>
+      </div>
+    </div>
+
+    <article class="color color--hei" data-tone="dark" data-name="玄色" data-hex="#34303C" data-dot="#34303C" style="--bg:#34303C;--fg:#EDE7DA">
+      <span class="color__frame" aria-hidden="true"></span>
+      <div class="color__inner reveal-scope">
+        <p class="color__index reveal" style="--i:0">13 / 15</p>
+        <p class="color__pinyin reveal" style="--i:1">XUAN SE</p>
+        <h3 class="color__name reveal" style="--i:2">玄色</h3>
+        <p class="color__hex reveal" style="--i:3"><button class="copy-btn" type="button" data-copy="#34303C" aria-label="复制色值 #34303C">#34303C<span class="copy-btn__label">复制</span></button></p>
+        <blockquote class="color__poem reveal" style="--i:4">天地玄黄，<br>宇宙洪荒。</blockquote>
+        <p class="color__source reveal" style="--i:5">南朝 · 周兴嗣《千字文》</p>
+        <p class="color__note reveal" style="--i:6">天之色。黑中带赤，深到极处反而生出微光。</p>
+      </div>
+    </article>
+
+    <article class="color color--hei" data-shift data-tone="dark" data-name="墨色" data-hex="#3F4C53" data-dot="#3F4C53" style="--bg:#3F4C53;--fg:#E6EDEF">
+      <span class="color__frame" aria-hidden="true"></span>
+      <div class="ink" aria-hidden="true"></div>
+      <div class="color__inner reveal-scope">
+        <p class="color__index reveal" style="--i:0">14 / 15</p>
+        <p class="color__pinyin reveal" style="--i:1">MO SE</p>
+        <h3 class="color__name reveal" style="--i:2">墨色</h3>
+        <p class="color__hex reveal" style="--i:3"><button class="copy-btn" type="button" data-copy="#3F4C53" aria-label="复制色值 #3F4C53">#3F4C53<span class="copy-btn__label">复制</span></button></p>
+        <blockquote class="color__poem reveal" style="--i:4">黑云翻墨未遮山，<br>白雨跳珠乱入船。</blockquote>
+        <p class="color__source reveal" style="--i:5">宋 · 苏轼《六月二十七日望湖楼醉书》</p>
+        <p class="color__note reveal" style="--i:6">松烟入胶，浓淡由人。一锭墨，可以画尽千里江山。</p>
+      </div>
+    </article>
+
+    <article class="color color--hei" data-shift data-tone="dark" data-name="鸦青" data-hex="#3D4A4F" data-dot="#3D4A4F" style="--bg:#3D4A4F;--fg:#E8EEF0">
+      <span class="color__frame" aria-hidden="true"></span>
+      <div class="ink" aria-hidden="true"></div>
+      <div class="color__inner reveal-scope">
+        <p class="color__index reveal" style="--i:0">15 / 15</p>
+        <p class="color__pinyin reveal" style="--i:1">YA QING</p>
+        <h3 class="color__name reveal" style="--i:2">鸦青</h3>
+        <p class="color__hex reveal" style="--i:3"><button class="copy-btn" type="button" data-copy="#3D4A4F" aria-label="复制色值 #3D4A4F">#3D4A4F<span class="copy-btn__label">复制</span></button></p>
+        <blockquote class="color__poem reveal" style="--i:4">枯藤老树昏鸦，<br>小桥流水人家。</blockquote>
+        <p class="color__source reveal" style="--i:5">元 · 马致远《天净沙 · 秋思》</p>
+        <p class="color__note reveal" style="--i:6">鸦羽在光下的那一层蓝。黑得干净，黑得有光。</p>
+      </div>
+    </article>
+  </section>
+
+  <!-- ========== 终 ========== -->
+  <section class="finale" id="finale" data-tone="light" data-name="终" style="--bg:#F2EBDD;--fg:#201D1A">
+    <div class="finale__inner reveal-scope">
+      <p class="eyebrow reveal" style="--i:1">终</p>
+      <h2 class="finale__title reveal" style="--i:2">五色成文</h2>
+      <p class="finale__text reveal" style="--i:3">
+        青赤黄白黑，是古人的正色；每一正色之下，又可分出无穷的间色。这些名字被写进诗、画进绢、烧进瓷里，成为一个文明对颜色最讲究的表达。
+      </p>
+
+      <ul class="swatches reveal" style="--i:4">
+        <li><button class="swatch" type="button" data-copy="#7BA7A0" aria-label="复制天青色值" style="--c:#7BA7A0"><span class="swatch__chip" aria-hidden="true"></span><span class="swatch__name">天青</span><span class="swatch__hex">#7BA7A0</span></button></li>
+        <li><button class="swatch" type="button" data-copy="#789262" aria-label="复制竹青色值" style="--c:#789262"><span class="swatch__chip" aria-hidden="true"></span><span class="swatch__name">竹青</span><span class="swatch__hex">#789262</span></button></li>
+        <li><button class="swatch" type="button" data-copy="#45566B" aria-label="复制黛蓝色值" style="--c:#45566B"><span class="swatch__chip" aria-hidden="true"></span><span class="swatch__name">黛蓝</span><span class="swatch__hex">#45566B</span></button></li>
+        <li><button class="swatch" type="button" data-copy="#BF3B2E" aria-label="复制朱砂色值" style="--c:#BF3B2E"><span class="swatch__chip" aria-hidden="true"></span><span class="swatch__name">朱砂</span><span class="swatch__hex">#BF3B2E</span></button></li>
+        <li><button class="swatch" type="button" data-copy="#9D2933" aria-label="复制胭脂色值" style="--c:#9D2933"><span class="swatch__chip" aria-hidden="true"></span><span class="swatch__name">胭脂</span><span class="swatch__hex">#9D2933</span></button></li>
+        <li><button class="swatch" type="button" data-copy="#E05B45" aria-label="复制妃色色值" style="--c:#E05B45"><span class="swatch__chip" aria-hidden="true"></span><span class="swatch__name">妃色</span><span class="swatch__hex">#E05B45</span></button></li>
+        <li><button class="swatch" type="button" data-copy="#E9A93A" aria-label="复制藤黄色值" style="--c:#E9A93A"><span class="swatch__chip" aria-hidden="true"></span><span class="swatch__name">藤黄</span><span class="swatch__hex">#E9A93A</span></button></li>
+        <li><button class="swatch" type="button" data-copy="#C0A052" aria-label="复制秋香色值" style="--c:#C0A052"><span class="swatch__chip" aria-hidden="true"></span><span class="swatch__name">秋香</span><span class="swatch__hex">#C0A052</span></button></li>
+        <li><button class="swatch" type="button" data-copy="#F0AE4A" aria-label="复制杏黄色值" style="--c:#F0AE4A"><span class="swatch__chip" aria-hidden="true"></span><span class="swatch__name">杏黄</span><span class="swatch__hex">#F0AE4A</span></button></li>
+        <li><button class="swatch" type="button" data-copy="#DCE9EA" aria-label="复制月白色值" style="--c:#DCE9EA"><span class="swatch__chip" aria-hidden="true"></span><span class="swatch__name">月白</span><span class="swatch__hex">#DCE9EA</span></button></li>
+        <li><button class="swatch" type="button" data-copy="#E9EFF0" aria-label="复制霜色色值" style="--c:#E9EFF0"><span class="swatch__chip" aria-hidden="true"></span><span class="swatch__name">霜色</span><span class="swatch__hex">#E9EFF0</span></button></li>
+        <li><button class="swatch" type="button" data-copy="#F3EEE2" aria-label="复制缟素色值" style="--c:#F3EEE2"><span class="swatch__chip" aria-hidden="true"></span><span class="swatch__name">缟素</span><span class="swatch__hex">#F3EEE2</span></button></li>
+        <li><button class="swatch" type="button" data-copy="#34303C" aria-label="复制玄色色值" style="--c:#34303C"><span class="swatch__chip" aria-hidden="true"></span><span class="swatch__name">玄色</span><span class="swatch__hex">#34303C</span></button></li>
+        <li><button class="swatch" type="button" data-copy="#3F4C53" aria-label="复制墨色色值" style="--c:#3F4C53"><span class="swatch__chip" aria-hidden="true"></span><span class="swatch__name">墨色</span><span class="swatch__hex">#3F4C53</span></button></li>
+        <li><button class="swatch" type="button" data-copy="#3D4A4F" aria-label="复制鸦青色值" style="--c:#3D4A4F"><span class="swatch__chip" aria-hidden="true"></span><span class="swatch__name">鸦青</span><span class="swatch__hex">#3D4A4F</span></button></li>
+      </ul>
+
+      <p class="finale__hint reveal" style="--i:5">点击任意色块或色值，即可复制</p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p class="footer__title">中国传统色 · 五色成文</p>
+  <p class="footer__note">一个纯前端练习作品 · 色值为常见传统色谱的近似参考，不同文献略有出入</p>
+  <a class="footer__top" href="#top">回到顶部 <i aria-hidden="true">↑</i></a>
+</footer>
+
+<div class="toast" role="status" aria-live="polite"></div>
+
+<noscript>
+  <style>
+    .reveal { opacity: 1 !important; transform: none !important; }
+    .hud, .progress { display: none; }
+  </style>
+</noscript>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
